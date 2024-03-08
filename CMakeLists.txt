@@ -1189,3 +1189,5 @@ if (EXISTS "${HDF5_SOURCE_DIR}/HDF5Examples" AND IS_DIRECTORY "${HDF5_SOURCE_DIR
 endif ()
 
 include (CMakeInstallation.cmake)
+
+add_subdirectory (mem_map)
